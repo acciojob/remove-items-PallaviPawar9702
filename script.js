@@ -3,6 +3,6 @@ let button = document.querySelector('input[type = "button"]')
 
 button.addEventListener("click", function(){
   if(select.selectedIndex !== -1){
-    select.remove(select.selectedIndex)
+    select.options.remove(select.selectedIndex)
   }
 })
